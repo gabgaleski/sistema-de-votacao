@@ -1,8 +1,14 @@
 package com.betrybe.sistemadevotacao;
 
-public class PessoaEleitora extends Pessoa{
+/**
+ * PessoaEleitora.
+ */
+public class PessoaEleitora extends Pessoa {
   private String cpf;
 
+  /**
+   * Constructor.
+   */
   public PessoaEleitora(String name, String cpf) {
     super();
     super.setNome(name);
